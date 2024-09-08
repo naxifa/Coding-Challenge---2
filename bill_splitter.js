@@ -1,5 +1,5 @@
 
-// Task 1: Using a ternary operator to find the tip amount based on bill size
+// Task 1: Calculate the tip 
 
 let bill=x; // Example of the bill
 let tip;
