@@ -54,4 +54,22 @@ function calculateTip(bill) {
             let total = bill + tip;
             console.log(`The bill was $${bill}, the tip was $${tip}, and the total value is $${total}`)});
 
+     // Task 5: Test Data
+     // Data Set 2
+
+    bills = [125,555,44];
+    tips = bills.map(bill => calculateTip(bill));
+
+    console.log("Bills: ", bills);
+    console.log("Tips: ", tips);
+
+    totals = bills.map((bills, index) => bills + tips[index]);
+
+    console.log("Totals: ", totals);
+    
+    bills.forEach((bill, index) => 
+         { let tip = tips[index];
+            let total = bill + tip;
+            console.log(`The bill was $${bill}, the tip was $${tip}, and the total value is $${total}`)});
+
            
